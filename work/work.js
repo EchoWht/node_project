@@ -28,7 +28,6 @@ var handlebars = require('express3-handlebars')
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
 
-
 /*模型 Work*/
 var db = mongoose.connect('mongodb://localhost/works');
 var Work = require('./models/workmodel');
