@@ -1,9 +1,0 @@
-extends layout
-block content
-    h1 Hi
-    p W#{result[0].name}
-    script(type='text/javascript').
-        var x=#{result};
-        for (var i=0;i<x.length;i++){
-            console.log(x[i].name);
-        }
