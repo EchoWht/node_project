@@ -1,0 +1,12 @@
+/**
+ * Created by Administrator on 2016-06-01.
+ */
+var express=require('express');
+var router=express.Router();
+
+router.get(
+    '/',function (req,res) {
+        res.send('Hi i am Router');
+    }
+);
+module.exports=router;

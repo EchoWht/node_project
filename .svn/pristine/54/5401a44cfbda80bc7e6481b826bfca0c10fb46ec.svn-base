@@ -1,0 +1,10 @@
+<!doctype html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<img style="width: 30px" src="/images/logo.png" alt="">
+{{{body}}}
+</body>

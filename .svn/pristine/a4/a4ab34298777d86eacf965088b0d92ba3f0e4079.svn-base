@@ -1,0 +1,14 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.0.0",
+    "express-session": "^1.13.0",
+    "express3-handlebars": "^0.5.0",
+    "formidable": "^1.0.17",
+    "mongoose": "^4.4.19",
+    "nodemailer": "^2.4.2"
+  }
+}
